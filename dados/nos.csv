@@ -1,0 +1,411 @@
+id,nome,tipo,subtipo,organizador_orador,dirigente_ffp,participante_1987,nota
+C1956,"I Congresso de Etnografia e Folclore (Braga, 1956)",congresso,,0,0,0,Data e promotor segundo a Revista de Guimarães 66 (1956).
+C1963,"Congresso Internacional de Etnografia (Santo Tirso, 1963)",congresso,,0,0,0,"Integrado nas comemorações do I Centenário da elevação de Santo Tirso a vila (Revista de Guimarães 73, 1963)."
+C1978,"I Congresso da Federação do Folclore Português (Vila do Conde, 1978)",congresso,,0,0,0,"I Congresso da Federação do Folclore Português, efectuado em Vila do Conde no dia 27 de maio de 1978 (Trabalhos e Conclusões, 1979, citado por J. Vasconcelos, Análise Social, 2001). Distinto do congresso fundador de 1977. Papéis dos seis folcloristas não especificados na lista fornecida."
+C1987,"II Congresso Nacional da Federação do Folclore Português (Coimbra, 1987)",congresso,,0,0,0,"Actas editadas pela CM Coimbra (Serviços Culturais) e pelo IPPC, Coimbra 1987. O programa refere 15–16 de setembro; confirmar o ano de realização."
+P:Mendes Correia,António A. Mendes Correia,pessoa,,1,0,0,
+P:Otero Pedrayo,Ramón Otero Pedrayo,pessoa,,1,0,0,
+P:Alfredo Ataíde,Alfredo Ataíde,pessoa,,1,0,0,
+P:Castillo de Lucas,António Castillo de Lucas,pessoa,,1,0,0,
+P:AM Santos da Cunha,António Maria Santos da Cunha,pessoa,,1,0,0,Partilha apelido com Adolfo Santos da Cunha: possível laço de parentesco (a verificar).
+P:Alberto Feio,Alberto Feio Soares de Azevedo,pessoa,,1,0,0,
+P:Costa Vilaça,José da Costa Vilaça,pessoa,,1,0,0,Médico.
+P:Adolfo Santos da Cunha,Adolfo Santos da Cunha,pessoa,,1,0,0,Partilha apelido com António Maria Santos da Cunha: possível laço de parentesco (a verificar).
+P:Ferreira de Araújo,José Maria Ferreira de Araújo,pessoa,,1,0,0,
+P:Pires de Lima,Fernando de Castro Pires de Lima,pessoa,,1,0,0,Director do Museu de Etnografia e História (Porto).
+P:Sérgio da Silva Pinto,Sérgio da Silva Pinto,pessoa,,1,0,0,
+P:Luís de Pina,Luís de Pina,pessoa,,1,0,0,
+P:Ferreira da Cruz,António Augusto Ferreira da Cruz,pessoa,,1,0,0,
+P:José Carvalhais,"Rev. Dr. José Carvalhais, S.J.",pessoa,,1,0,0,
+P:Frei José Matoso,"Frei José de Santa Escolástica Matoso, O.S.B.",pessoa,,1,0,0,"Na lista fornecida: «Santa Escolásticas». Identificação provável com José Mattoso (1933–2023), então monge beneditino em Singeverga (Santo Tirso) — a confirmar."
+P:Correia de Miranda,António Júlio Cardoso Correia de Miranda [?],pessoa,,1,0,0,Na lista fornecida: «António Júlia Cardoso Correira de Miranda»; forma normalizada a confirmar.
+P:Faya Santarém,Carlos Manuel Faya Santarém,pessoa,,1,0,0,Secretário-geral do congresso segundo a Revista de Guimarães 73.
+P:Maya Santos,Arq. José Maya Santos,pessoa,,1,0,0,
+P:Moreira Dias,Arq. Francisco M. Moreira Dias,pessoa,,1,0,0,
+P:Michel Mollat,Michel Mollat,pessoa,,1,0,0,
+P:Adriano Moreira,Adriano Moreira,pessoa,,1,0,0,
+P:Virgínia Rau,Virgínia Rau,pessoa,,1,0,0,
+P:Délio Santarém,Délio de Castro Cardoso Santarém,pessoa,,1,0,0,Presidente da CM Santo Tirso; partilha apelido com Faya Santarém (parentesco a verificar).
+P:Arcides Simões,Arcides Baptista Simões,pessoa,,1,0,1,Na lista de 1978 fornecida: «Areides Baptista Simões»; nas Actas de 1987: «Arcides B. Simões». Tratados como a mesma pessoa.
+P:Chaves e Castro,Manuel Chaves e Castro,pessoa,,1,1,1,
+P:Souto Barreiros,Augusto do Souto Barreiros,pessoa,,1,0,1,
+P:José Maria Marques,José Maria Marques,pessoa,,1,1,1,
+P:Gomes dos Santos,Augusto Gomes dos Santos,pessoa,,1,1,1,
+P:Oliveira Morais,António José Oliveira Morais,pessoa,,1,0,1,Nas Actas de 1987: «António José O. Morais».
+P:Rodrigues da Costa,António Fernando Rodrigues da Costa,pessoa,,1,0,1,
+P:Dialino Esteves,Dialino Esteves,pessoa,,1,0,1,
+P:Victorino de Sousa,Fernando Victorino de Sousa,pessoa,,1,0,1,Na lista de participantes de 1987 surge «Vitorino de Sousa — FFP»; tratados como a mesma pessoa (a confirmar).
+I:ISEU/ISCSPU,Instituto Superior de Estudos Ultramarinos / ISCSPU (Lisboa),instituição,ensino colonial,0,0,0,
+I:U Santiago,Universidade de Santiago de Compostela,instituição,universidade,0,0,0,
+I:U Porto,Universidade do Porto,instituição,universidade,0,0,0,
+I:U Madrid,Universidade de Madrid,instituição,universidade,0,0,0,
+I:CM Braga,Câmara Municipal de Braga,instituição,autarquia,0,0,0,
+I:BPAD Braga,Biblioteca Pública e Arquivo Distrital de Braga,instituição,museu/arquivo,0,0,0,
+I:Grémio Comércio Braga,Grémio do Comércio de Braga,instituição,corporativo,0,0,0,
+I:Comp. de Jesus,Companhia de Jesus (S.J.),instituição,igreja,0,0,0,
+I:OSB Singeverga,Ordem de S. Bento (O.S.B.),instituição,igreja,0,0,0,
+I:CIHM Paris,Comissão Internacional de História Marítima (Paris),instituição,internacional,0,0,0,
+I:CEH Porto,Centro de Estudos Humanísticos (Porto),instituição,universidade,0,0,0,
+I:MEH Porto,Museu de Etnografia e História (Porto) / Junta Distrital do Porto,instituição,museu/arquivo,0,0,0,
+I:CM Santo Tirso,Câmara Municipal de Santo Tirso,instituição,autarquia,0,0,0,
+I:FFP,Federação do Folclore Português,instituição,federação,0,0,0,
+I:CM Coimbra,Câmara Municipal de Coimbra (Serv. Municipais de Turismo / Serv. Culturais),instituição,autarquia,0,0,0,
+I:IPPC,Instituto Português do Património Cultural,instituição,edição,0,0,0,
+C1977,"1.º Congresso Nacional de Folclore (Vila do Conde, 1977)",congresso,,0,0,0,28–29 mai. 1977. Na Assembleia Eleitoral de 29 mai. foi eleita a Comissão Instaladora da FFP. Fonte: atas n.º 1 e 2 no site da FFP.
+F:Armando da Rocha Marques,Armando da Rocha Marques,pessoa,,1,1,0,Pode corresponder a «Armando Rocha» (Rusga de Arcozelo) ou a «Armando Marques» (Grupo Poveiro) nas Actas de 1987; não identificado.
+F:José Augusto Brito Meira,José Augusto Brito Meira,pessoa,,1,1,0,
+F:João Francisco Nunes Vidal,João Francisco Nunes Vidal,pessoa,,1,1,0,
+F:Albino Araújo,Albino Araújo,pessoa,,1,1,0,
+F:Onofre Domingues Ferreira,Onofre Domingues Ferreira,pessoa,,1,0,0,
+Q:Isabel M. S. O. Calejo,Isabel Maria Calejo,pessoa,,1,1,1,"Participante no II Congresso da FFP, filiação «Grupo Folclórico de Cidacos» (Actas, p. IX). Identificada com «Isabel M. S. O. Calejo» (Actas 1987); a confirmar."
+F:Rui Carlos Borges de Castro,Rui Carlos Borges de Castro,pessoa,,1,1,0,Partilha apelido com Paulo António Cabral Borges de Castro (parentesco por verificar).
+F:Serafim Reis,Serafim Reis,pessoa,,1,1,0,
+M1977,Comissão Instaladora da FFP (1977–1978),mandato,,0,0,0,29 mai. 1977. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1017
+F:Paulo António Cabral Borges de Castro,Paulo António Cabral Borges de Castro,pessoa,,0,1,0,Partilha apelido com Rui Carlos Borges de Castro (parentesco por verificar).
+Q:António de Jesus Ferreira,António de Jesus Ferreira,pessoa,,0,1,1,"Participante no II Congresso da FFP, filiação «Associação de Folclore Cantarinhas da Triana» (Actas, p. VIII)."
+Q:Manuel Duarte Pereira Vale,Manuel Duarte Pereira Vale,pessoa,,0,1,1,"Participante no II Congresso da FFP, filiação «Rancho Regional de Gulpilhares» (Actas, p. X)."
+Q:Abílio da Assunção O. Costa,Abílio de Assunção de Oliveira Costa,pessoa,,0,1,1,"Participante no II Congresso da FFP, filiação «Grupo Folclórico Santa Marta de Portuzelo» (Actas, p. VII)."
+Q:Alberto Augusto Queirós,Alberto Augusto Archer Leite de Queirós,pessoa,,0,1,1,"Participante no II Congresso da FFP, filiação «Rancho Folclórico de Ribatâmega» (Actas, p. VII). Identificado com «Alberto Augusto Queirós» (Actas 1987) pelo nome; a confirmar."
+Q:Alfredo Soares Moreira,Alfredo Soares Moreira,pessoa,,0,1,1,"Participante no II Congresso da FFP, filiação «Federação do Folclore Português» (Actas, p. VII)."
+F:Dr. José Vieira de Carvalho,Dr. José Vieira de Carvalho,pessoa,,0,1,0,
+Q:António Gomes Ferreira,António Gomes Ferreira,pessoa,,0,1,1,"Participante no II Congresso da FFP, filiação «Federação do Folclore Português» (Actas, p. VII)."
+Q:Eduardo dos Santos Duarte,Eduardo dos Santos Duarte,pessoa,,0,1,1,"Participante no II Congresso da FFP, filiação «Rancho Folclórico de Gouveia» (Actas, p. IX)."
+M1978,"Órgãos sociais da FFP, mandato 1978–1980",mandato,,0,0,0,posse 4 mar. 1978. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1016
+F:Padre Morais,Padre Morais,pessoa,,0,1,0,Possivelmente António José Oliveira Morais (folclorista em 1978); não identificado.
+Q:Ludgero Mendes,Ludgero António de Jesus Mendes,pessoa,,0,1,1,"Participante no II Congresso da FFP, filiação «Grupo Académico de Danças Ribatejanas — Santarém» (Actas, p. X). Aparece como «Ludgero Mendes» (1978–2004) e «Ludgero António (de) Jesus Mendes» (2005–2025); tratado como a mesma pessoa, a confirmar."
+F:José Bracourt,José Bracourt,pessoa,,0,1,0,Pode ser gralha por «Jorge Bracourt» (suplente em 1981); mantido separado.
+Q:José C. Gaspar,José Carvalho Gaspar,pessoa,,0,1,1,"Participante no II Congresso da FFP, filiação «Grupo Folclórico Camponeses do Mondego» (Actas, p. X). Identificado com «José C. Gaspar» (Actas 1987); a confirmar."
+F:José António de Almeida,José António de Almeida,pessoa,,0,1,0,
+F:António Maia Cardoso,António Maia Cardoso,pessoa,,0,1,0,
+F:Maria Cândida Garrido Duarte,Maria Cândida Garrido Duarte,pessoa,,0,1,0,Nas Actas de 1987 há «Maria Cândida Guia Duarte» (GF de Pias — Cinfães); não identificada.
+F:António Guedes de Oliveira,António Guedes de Oliveira,pessoa,,0,1,0,
+F:António Nunes Vidal,António Nunes Vidal,pessoa,,0,1,0,
+M1981,"Órgãos sociais da FFP, mandato 1981–1983",mandato,,0,0,0,posse 11 jan. 1981. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1015
+F:António Nunes do Carmo Claudio,António Nunes do Carmo Claudio,pessoa,,0,1,0,
+Q:Alberto Pimenta G. Rego,Alberto Pimenta Gomes Rego,pessoa,,0,1,1,"Participante no II Congresso da FFP, filiação «Conjunto Etnográfico da Areosa — Viana do Castelo» (Actas, p. VII)."
+F:Rodrigo Carlos da Cruz Amaral,Rodrigo Carlos da Cruz Amaral,pessoa,,0,1,0,
+Q:Jorge Bracourt,Jorge Bracourt,pessoa,,0,1,1,"Participante no II Congresso da FFP, filiação «Rancho das Cantarinhas de Buarcos» (Actas, p. X)."
+M1984,"Órgãos sociais da FFP, mandato 1984–1986",mandato,,0,0,0,posse 7 jan. 1984. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1014
+F:Manuel da Silva Freire,Manuel da Silva Freire,pessoa,,0,1,0,
+F:Domingos Monteiro de Sá,Domingos Monteiro de Sá,pessoa,,0,1,0,
+Q:Carlos M. M. B. Maltês,Carlos Manuel de Miranda Barreto Maltez,pessoa,,0,1,1,"Participante no II Congresso da FFP, filiação «Grupo Folclórico Esticadinhos — Cantanhede» (Actas, p. VIII). Identificado com «Carlos M. M. B. Maltês» (Actas 1987); a confirmar."
+F:Aurélio da Cunha Paiva,Aurélio da Cunha Paiva,pessoa,,0,1,0,
+F:Adelino Marques da Silva,Adelino Marques da Silva,pessoa,,0,1,0,
+M1987,"Órgãos sociais da FFP, mandato 1987–1989",mandato,,0,0,0,posse 31 jan. 1987. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1013
+F:Álvaro de Almeida Santos,Álvaro de Almeida Santos,pessoa,,0,1,0,
+F:Manuel de Jesus,Manuel de Jesus,pessoa,,0,1,0,
+M1990,"Órgãos sociais da FFP, mandato 1990–1992",mandato,,0,0,0,posse 21 jan. 1990. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1012
+Q:António Lopes Pires,António Lopes Pires,pessoa,,0,1,1,"Participante no II Congresso da FFP, filiação «Rancho Folclórico de Passos de Silgueiros» (Actas, p. VIII)."
+Q:Joaquim Lopes Santana,Joaquim Lopes Santana,pessoa,,0,1,1,"Participante no II Congresso da FFP, filiação «Rancho Folclórico Camponeses de Riachos» (Actas, p. X)."
+F:Manuel Vasco Magalhães da Rocha,Manuel Vasco Magalhães da Rocha,pessoa,,0,1,0,
+M1993,"Órgãos sociais da FFP, mandato 1993–1995",mandato,,0,0,0,posse 9 jan. 1993. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1011
+F:José Elísio Ferreira de Oliveira,José Elísio Ferreira de Oliveira,pessoa,,0,1,0,
+Q:Fernando Ferreira da Silva,Fernando Ferreira da Silva,pessoa,,0,1,1,"Participante no II Congresso da FFP, filiação «Grupo de Danças e Cantares de Argoncilhe — Feira» (Actas, p. IX)."
+M1996,"Órgãos sociais da FFP, mandato 1996–1998",mandato,,0,0,0,posse 27 jan. 1996. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1010
+F:Francisco Mendes Moreira,Francisco Mendes Moreira,pessoa,,0,1,0,
+M1999,"Órgãos sociais da FFP, mandato 1999–2001",mandato,,0,0,0,posse 24 jan. 1999. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1009
+F:Inácio Martins Soares,Inácio Martins Soares,pessoa,,0,1,0,
+M2002,"Órgãos sociais da FFP, mandato 2002–2004",mandato,,0,0,0,posse 13 jan. 2002. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1008
+F:António Eduardo Pereira Pinto,António Eduardo Pereira Pinto,pessoa,,0,1,0,
+M2005,"Órgãos sociais da FFP, mandato 2005–2007",mandato,,0,0,0,posse 9 jan. 2005. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1007
+F:Raul Fernando Mendes das Neves,Raul Fernando Mendes das Neves,pessoa,,0,1,0,
+F:Ana Lourenço Rodrigues Machado,Ana Lourenço Rodrigues Machado,pessoa,,0,1,0,
+F:António José Santos Gabriel,António José Santos Gabriel,pessoa,,0,1,0,
+F:Joaquim Rocha Neves da Silva,Joaquim Rocha Neves da Silva,pessoa,,0,1,0,
+F:Paulo Alexandre de Oliveira,Paulo Alexandre de Oliveira,pessoa,,0,1,0,
+F:António Teixeira Faria,António Teixeira Faria,pessoa,,0,1,0,
+F:Maria Emília Costa Ferreira Francisco,Maria Emília Costa Ferreira Francisco,pessoa,,0,1,0,"«Maria Emília Francisco» (2005) e «Maria Emília Costa Ferreira Francisco» (2017–2025) tratadas como a mesma pessoa, a confirmar."
+F:Fernando Rodrigo Oliveira Pino,Fernando Rodrigo Oliveira Pino,pessoa,,0,1,0,
+F:Luís Carlos da Silva,Luís Carlos da Silva,pessoa,,0,1,0,
+F:Adriano Augusto da Silva,Adriano Augusto da Silva,pessoa,,0,1,0,
+F:António Domingues,António Domingues,pessoa,,0,1,0,
+M2008,"Órgãos sociais da FFP, mandato 2008–2010",mandato,,0,0,0,posse 16 dez. 2007. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1006
+F:Maria Manuela Carloto Simplício Silva Carriço,Maria Manuela Carloto Simplício Silva Carriço,pessoa,,0,1,0,
+F:Luís de Sousa Fernandes,Luís de Sousa Fernandes,pessoa,,0,1,0,
+F:Manuel Almeida Farias,Manuel Almeida Farias,pessoa,,0,1,0,
+F:Paulo Renato de Oliveira Capela Vieira,Paulo Renato de Oliveira Capela Vieira,pessoa,,0,1,0,
+M2011,"Órgãos sociais da FFP, mandato 2011–2013",mandato,,0,0,0,posse 9 jan. 2011. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1005
+F:Florêncio António Azinheirinha Cacête,Florêncio António Azinheirinha Cacête,pessoa,,0,1,0,
+F:Elisa Manuela Afonso Alves,Elisa Manuela Afonso Alves,pessoa,,0,1,0,
+F:Helena Maria dos Santos Fava,Helena Maria dos Santos Fava,pessoa,,0,1,0,
+F:Ana Rita Rodrigues Leitão Granja Vieira,Ana Rita Rodrigues Leitão Granja Vieira,pessoa,,0,1,0,"«Ana Rita Leitão» (2011) e «Ana Rita Rodrigues Leitão Granja Vieira» (2014–2019) tratadas como a mesma pessoa, a confirmar."
+F:Daniel Calado Café,Daniel Calado Café,pessoa,,0,1,0,
+F:Raquel João Resende Elvas,Raquel João Resende Elvas,pessoa,,0,1,0,
+F:Maria Lucília Pereira Alves Santos,Maria Lucília Pereira Alves Santos,pessoa,,0,1,0,
+F:Luís Manuel Campos Elias,Luís Manuel Campos Elias,pessoa,,0,1,0,
+F:Maria Judite de Sá Ribeiro,Maria Judite de Sá Ribeiro,pessoa,,0,1,0,
+F:Carlos Miguel Magalhães Sousa,Carlos Miguel Magalhães Sousa,pessoa,,0,1,0,
+M2014,"Órgãos sociais da FFP, mandato 2014–2016",mandato,,0,0,0,posse 12 jan. 2014. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1004
+F:Carlos Manuel Martins Saraiva,Carlos Manuel Martins Saraiva,pessoa,,0,1,0,
+F:Paulo Alexandre Santos Marques,Paulo Alexandre Santos Marques,pessoa,,0,1,0,
+F:Rui Mário de Pinho Mota,Rui Mário de Pinho Mota,pessoa,,0,1,0,
+F:Carla Patrícia Basto Meira,Carla Patrícia Basto Meira,pessoa,,0,1,0,
+F:Rodrigo Dinis de Sousa Martins,Rodrigo Dinis de Sousa Martins,pessoa,,0,1,0,
+M2017,"Órgãos sociais da FFP, mandato 2017–2019",mandato,,0,0,0,triénio 2017–2019. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1003
+F:João Manuel da Silva Carriço,João Manuel da Silva Carriço,pessoa,,0,1,0,
+F:Fábio Fernando da Costa e Sá Ferreira Pinto,Fábio Fernando da Costa e Sá Ferreira Pinto,pessoa,,0,1,0,
+F:Laura Maria Balsemão Campos,Laura Maria Balsemão Campos,pessoa,,0,1,0,
+M2020,"Órgãos sociais da FFP, mandato 2020–2022",mandato,,0,0,0,triénio 2020–2022. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1019
+F:Dinis Correia Mateus,Dinis Correia Mateus,pessoa,,0,1,0,
+F:Joaquim José Lopes Matias,Joaquim José Lopes Matias,pessoa,,0,1,0,
+F:António Correia do Vale,António Correia do Vale,pessoa,,0,1,0,
+F:Valentim Manuel da Silva Machado,Valentim Manuel da Silva Machado,pessoa,,0,1,0,
+F:Nuno Miguel da Silva Maia,Nuno Miguel da Silva Maia,pessoa,,0,1,0,
+F:Jaime Ricardo Teixeira Gouveia,Jaime Ricardo Teixeira Gouveia,pessoa,,0,1,0,
+F:Ricardo Miguel Martins Oliveira,Ricardo Miguel Martins Oliveira,pessoa,,0,1,0,
+F:Cristina Margarida Pardinha Gaspar,Cristina Margarida Pardinha Gaspar,pessoa,,0,1,0,
+M2023,"Órgãos sociais da FFP, mandato 2023–2025",mandato,,0,0,0,mandato 2023–2025. Fonte: https://www.ffp.pt/?page=Content-Manager&contentId=1048
+F:Paulo Paiva Morais,Paulo Paiva Morais,pessoa,,0,1,0,
+F:Cecília do Carmo Rodrigues de Sousa,Cecília do Carmo Rodrigues de Sousa,pessoa,,0,1,0,
+F:Sérgio Miguel Estrela Coelho,Sérgio Miguel Estrela Coelho,pessoa,,0,1,0,
+F:Tânia Alexandra Miranda Gabriel,Tânia Alexandra Miranda Gabriel,pessoa,,0,1,0,
+F:António Luís Ferreira de Sousa,António Luís Ferreira de Sousa,pessoa,,0,1,0,
+F:Cláudia Cristina Fernandes Reigota,Cláudia Cristina Fernandes Reigota,pessoa,,0,1,0,
+F:Maria Carla Miranda de Oliveira,Maria Carla Miranda de Oliveira,pessoa,,0,1,0,
+F:Sérgio Armando Fernandes da Silva,Sérgio Armando Fernandes da Silva,pessoa,,0,1,0,
+F:Paulo Alexandre Machado Jerónimo,Paulo Alexandre Machado Jerónimo,pessoa,,0,1,0,
+F:Fábio André Pereira Gonçalves Luís,Fábio André Pereira Gonçalves Luís,pessoa,,0,1,0,
+F:André Alexandre Pereira Guerreiro,André Alexandre Pereira Guerreiro,pessoa,,0,1,0,
+A:Grupo Folclórico Santa Marta de Portuzelo,Grupo Folclórico Santa Marta de Portuzelo,agrupamento,,0,0,0,
+Q:Abílio de Jesus Campelo,Abílio de Jesus Campelo,pessoa,,0,0,1,
+A:Rancho Regional do Mindelo — Vila do Conde,Rancho Regional do Mindelo — Vila do Conde,agrupamento,,0,0,0,
+Q:Adílio de Matos Almirante,Adílio de Matos Almirante,pessoa,,0,0,1,
+A:Rancho Folclórico Camponeses de Arroteias — Alhos Vedros,Rancho Folclórico Camponeses de Arroteias — Alhos Vedros,agrupamento,,0,0,0,
+A:Rancho Folclórico de Ribatâmega,Rancho Folclórico de Ribatâmega,agrupamento,,0,0,0,
+Q:Alberto M. Amorim Vieira,Alberto M. Amorim Vieira,pessoa,,0,0,1,
+A:Grupo Folclórico de S. Torcato — Guimarães,Grupo Folclórico de S. Torcato — Guimarães,agrupamento,,0,0,0,
+A:Conjunto Etnográfico da Areosa — Viana do Castelo,Conjunto Etnográfico da Areosa — Viana do Castelo,agrupamento,,0,0,0,
+Q:Alda Teixeira,Alda Teixeira,pessoa,,0,0,1,
+I2:Direcção Geral do Turismo,Direcção Geral do Turismo,instituição,Administração / turismo,0,0,0,Filiação indicada por um participante do II Congresso da FFP.
+Q:Alfredo Sousa Gomes,Alfredo Sousa Gomes,pessoa,,0,0,1,
+A:Rancho Passarinhos do Liz — Maceira,Rancho Passarinhos do Liz — Maceira,agrupamento,,0,0,0,
+Q:Alice Freitas,Alice Freitas,pessoa,,0,0,1,
+A:Grupo de Cantares e Danças de S. Cruz de Ribatâmega,Grupo de Cantares e Danças de S. Cruz de Ribatâmega,agrupamento,,0,0,0,
+Q:Amadeu Lucas Serôdio,Amadeu Lucas Serôdio,pessoa,,0,0,1,
+A:Rancho Típico da Palheira,Rancho Típico da Palheira,agrupamento,,0,0,0,
+Q:Américo Fernandes,Américo Fernandes,pessoa,,0,0,1,
+A:Orquestra Típica de Águeda,Orquestra Típica de Águeda,agrupamento,,0,0,0,
+Q:Américo Mota Vidinha,Américo Mota Vidinha,pessoa,,0,0,1,
+A:Rancho Folclórico Hortelões — Ervideira,Rancho Folclórico Hortelões — Ervideira,agrupamento,,0,0,0,
+Q:Ana Rosa Cardoso,Ana Rosa Cardoso,pessoa,,0,0,1,
+A:Rancho Folclórico de S. Cosme — Gondomar,Rancho Folclórico de S. Cosme — Gondomar,agrupamento,,0,0,0,
+Q:Aníbal Moreira de Sousa,Aníbal Moreira de Sousa,pessoa,,0,0,1,
+A:Grupo Folclórico de Ganfei — Valença,Grupo Folclórico de Ganfei — Valença,agrupamento,,0,0,0,
+Q:António Álvaro de C. Duarte,António Álvaro de C. Duarte,pessoa,,0,0,1,
+A:Rancho Folclórico da Casa do Povo de Castelo de Paiva,Rancho Folclórico da Casa do Povo de Castelo de Paiva,agrupamento,,0,0,0,
+Q:António Antunes Corino,António Antunes Corino,pessoa,,0,0,1,
+A:Grupo Folclórico Camponeses do Mondego,Grupo Folclórico Camponeses do Mondego,agrupamento,,0,0,0,
+Q:António Augusto Pinho,António Augusto Pinho,pessoa,,0,0,1,
+A:Rancho Folclórico da Ribeira — Ovar,Rancho Folclórico da Ribeira — Ovar,agrupamento,,0,0,0,
+Q:António Augusto Queirós,António Augusto Queirós,pessoa,,0,0,1,
+Q:António Emídio Saro Mateus,António Emídio Saro Mateus,pessoa,,0,0,1,
+A:Grupo Folclórico Fontineiros da Maia,Grupo Folclórico Fontineiros da Maia,agrupamento,,0,0,0,
+Q:António Gonçalves da Silva,António Gonçalves da Silva,pessoa,,0,0,1,
+Q:António Joaquim F. Brito,António Joaquim F. Brito,pessoa,,0,0,1,
+Q:António Miguel Lopes Pires,António Miguel Lopes Pires,pessoa,,0,0,1,
+A:Rancho Folclórico de Passos de Silgueiros,Rancho Folclórico de Passos de Silgueiros,agrupamento,,0,0,0,
+A:Associação de Folclore Cantarinhas da Triana,Associação de Folclore Cantarinhas da Triana,agrupamento,,0,0,0,
+A:Rancho Folclórico Cancioneiro de Folgosinho,Rancho Folclórico Cancioneiro de Folgosinho,agrupamento,,0,0,0,
+Q:António Ramos da Silva,António Ramos da Silva,pessoa,,0,0,1,
+A:Rancho Típico do Paleão,Rancho Típico do Paleão,agrupamento,,0,0,0,
+Q:António Santos Resende,António Santos Resende,pessoa,,0,0,1,
+A:Grupo Folclórico do Bordalo,Grupo Folclórico do Bordalo,agrupamento,,0,0,0,
+Q:António Simões Parente,António Simões Parente,pessoa,,0,0,1,
+A:Rancho Folclórico de Quiaios,Rancho Folclórico de Quiaios,agrupamento,,0,0,0,
+Q:António Valezim Dias,António Valezim Dias,pessoa,,0,0,1,
+A:Rancho da Casa do Povo de Paúl,Rancho da Casa do Povo de Paúl,agrupamento,,0,0,0,
+A:Rancho Folclórico de Torredeita,Rancho Folclórico de Torredeita,agrupamento,,0,0,0,
+Q:Aristides Lopes dos Santos,Aristides Lopes dos Santos,pessoa,,0,0,1,
+A:Grupo Folclórico Etnográfico de Condeixa,Grupo Folclórico Etnográfico de Condeixa,agrupamento,,0,0,0,
+Q:Arlindo Ferreira de Almeida,Arlindo Ferreira de Almeida,pessoa,,0,0,1,
+A:Grupo Folclórico do Baixo Mondego — Pereira do Campo,Grupo Folclórico do Baixo Mondego — Pereira do Campo,agrupamento,,0,0,0,
+Q:Arlindo da Silva Ferreira,Arlindo da Silva Ferreira,pessoa,,0,0,1,
+Q:Armando Alves da Costa,Armando Alves da Costa,pessoa,,0,0,1,
+Q:Armando Freitas,Armando Freitas,pessoa,,0,0,1,
+Q:Armando Marques,Armando Marques,pessoa,,0,0,1,
+A:Grupo Folclórico Poveiro — Póvoa do Varzim,Grupo Folclórico Poveiro — Póvoa do Varzim,agrupamento,,0,0,0,
+Q:Armando Rocha,Armando Rocha,pessoa,,0,0,1,
+A:Rancho Folclórico Rusga de Arcozelo,Rancho Folclórico Rusga de Arcozelo,agrupamento,,0,0,0,
+Q:Armando da Silva,Armando da Silva,pessoa,,0,0,1,
+Q:Artur José L. Domingues,Artur José L. Domingues,pessoa,,0,0,1,
+A:Grupo Etnográfico «Os Esparteiros»,Grupo Etnográfico «Os Esparteiros»,agrupamento,,0,0,0,
+Q:Augusto João Gomes Vieira,Augusto João Gomes Vieira,pessoa,,0,0,1,
+A:Grupo Folclórico da Casa do Povo de Ceira,Grupo Folclórico da Casa do Povo de Ceira,agrupamento,,0,0,0,
+Q:Avelino M. Silva Santos,Avelino M. Silva Santos,pessoa,,0,0,1,
+Q:Barão Espada Cachola,Barão Espada Cachola,pessoa,,0,0,1,
+A:Grupo Coral Etnográfico Camponeses de Pias e Brinches,Grupo Coral Etnográfico Camponeses de Pias e Brinches,agrupamento,,0,0,0,
+Q:Benjamim Geraldo Pires,Benjamim Geraldo Pires,pessoa,,0,0,1,
+Q:Cândido Pereira,Cândido Pereira,pessoa,,0,0,1,
+A:Grupo Folclórico de Porto Santo — Madeira,Grupo Folclórico de Porto Santo — Madeira,agrupamento,,0,0,0,
+Q:Carlos Adelino Antunes Aneia,Carlos Adelino Antunes Aneia,pessoa,,0,0,1,
+A:Rancho Típico da Serra da Lousã,Rancho Típico da Serra da Lousã,agrupamento,,0,0,0,
+Q:Carlos Alberto M. Jorge,Carlos Alberto M. Jorge,pessoa,,0,0,1,
+A:Grupo Folclórico Ceifeiros da Corujeira,Grupo Folclórico Ceifeiros da Corujeira,agrupamento,,0,0,0,
+Q:Carlos Alfredo M. Fernandes,Carlos Alfredo M. Fernandes,pessoa,,0,0,1,
+Q:Carlos António Ribeiro,Carlos António Ribeiro,pessoa,,0,0,1,
+A:Rancho Folclórico da Casa do Povo de Torres Novas,Rancho Folclórico da Casa do Povo de Torres Novas,agrupamento,,0,0,0,
+A:Grupo Folclórico Esticadinhos — Cantanhede,Grupo Folclórico Esticadinhos — Cantanhede,agrupamento,,0,0,0,
+Q:Carlos Machado,Carlos Machado,pessoa,,0,0,1,
+Q:Carlos Mileiro,Carlos Mileiro,pessoa,,0,0,1,
+Q:Celso António da Silva Jordão,Celso António da Silva Jordão,pessoa,,0,0,1,
+Q:Daniel da Silva Cravo Júnior,Daniel da Silva Cravo Júnior,pessoa,,0,0,1,
+A:Grupo Folclórico da Região da Bairrada — Mamarosa,Grupo Folclórico da Região da Bairrada — Mamarosa,agrupamento,,0,0,0,
+Q:Dilma Quaresma Pereira,Dilma Quaresma Pereira,pessoa,,0,0,1,
+A:Conjunto Etnográfico de Moldes — Arouca,Conjunto Etnográfico de Moldes — Arouca,agrupamento,,0,0,0,
+Q:Domingues da Silva França,Domingues da Silva França,pessoa,,0,0,1,
+Q:Eduardo Rebelo da Silva,Eduardo Rebelo da Silva,pessoa,,0,0,1,
+A:Rancho Folclórico S. Miguel Anjo,Rancho Folclórico S. Miguel Anjo,agrupamento,,0,0,0,
+A:Rancho Folclórico de Gouveia,Rancho Folclórico de Gouveia,agrupamento,,0,0,0,
+Q:Élio Martins,Élio Martins,pessoa,,0,0,1,
+Q:Elísio Manuel Martins da Cruz,Elísio Manuel Martins da Cruz,pessoa,,0,0,1,
+Q:Estela Maria Aguiar S. da Cruz,Estela Maria Aguiar S. da Cruz,pessoa,,0,0,1,
+A:Rancho Cancioneiro de Águeda,Rancho Cancioneiro de Águeda,agrupamento,,0,0,0,
+Q:Fernando Dutra de Sousa,Fernando Dutra de Sousa,pessoa,,0,0,1,
+A:Grupo Folclórico da Casa do Povo da Candelária — Açores,Grupo Folclórico da Casa do Povo da Candelária — Açores,agrupamento,,0,0,0,
+A:Grupo de Danças e Cantares de Argoncilhe — Feira,Grupo de Danças e Cantares de Argoncilhe — Feira,agrupamento,,0,0,0,
+Q:Fernando Marques de Oliveira,Fernando Marques de Oliveira,pessoa,,0,0,1,
+A:Grupo Típico Regional Os Pauliteiros — Abravezes,Grupo Típico Regional Os Pauliteiros — Abravezes,agrupamento,,0,0,0,
+Q:Félix do Vale Malheiro,Félix do Vale Malheiro,pessoa,,0,0,1,
+A:Rancho Lavradeiras do Carreço,Rancho Lavradeiras do Carreço,agrupamento,,0,0,0,
+Q:Francisco Faria,Francisco Faria,pessoa,,0,0,1,
+I2:Comissão de Análise aos Grupos Folclóricos de Coimbra,Comissão de Análise aos Grupos Folclóricos de Coimbra,instituição,Comissão de análise,0,0,0,Filiação indicada por um participante do II Congresso da FFP.
+Q:Francisco Mano Martins,Francisco Mano Martins,pessoa,,0,0,1,
+Q:Guilherme Ramos,Guilherme Ramos,pessoa,,0,0,1,
+A:Rancho Folclórico Tá-Mar — Nazaré,Rancho Folclórico Tá-Mar — Nazaré,agrupamento,,0,0,0,
+Q:Henrique F. M. Coutinho Gouveia,Henrique F. M. Coutinho Gouveia,pessoa,,0,0,1,
+I2:Museu e Laboratório Antropológico da Universidade de Coimbra,Museu e Laboratório Antropológico da Universidade de Coimbra,instituição,Universidade / museu,0,0,0,Filiação indicada por um participante do II Congresso da FFP.
+Q:Henrique Gama Carneiro,Henrique Gama Carneiro,pessoa,,0,0,1,
+A:Rancho Folclórico de Santiago de Custóias,Rancho Folclórico de Santiago de Custóias,agrupamento,,0,0,0,
+Q:Ilda S. B. Mesquita,Ilda S. B. Mesquita,pessoa,,0,0,1,
+A:Grupo Folclórico de Silvares,Grupo Folclórico de Silvares,agrupamento,,0,0,0,
+A:Grupo Folclórico de Cidacos,Grupo Folclórico de Cidacos,agrupamento,,0,0,0,
+Q:Jacinto da Costa Sá,Jacinto da Costa Sá,pessoa,,0,0,1,
+Q:Jacinto Dias Estima,Jacinto Dias Estima,pessoa,,0,0,1,
+Q:João Cunha,João Cunha,pessoa,,0,0,1,
+A:Grupo Folclórico da Casa do Povo de Junqueiro,Grupo Folclórico da Casa do Povo de Junqueiro,agrupamento,,0,0,0,
+Q:João Francisco Rodrigues,João Francisco Rodrigues,pessoa,,0,0,1,
+A:Rancho Folclórico de Candosa — Tábua,Rancho Folclórico de Candosa — Tábua,agrupamento,,0,0,0,
+Q:João Gomes Moreira,João Gomes Moreira,pessoa,,0,0,1,
+A:Rancho Folclórico «As Morenitas» — Torrão Lameiro,Rancho Folclórico «As Morenitas» — Torrão Lameiro,agrupamento,,0,0,0,
+Q:João Rafael dos Santos,João Rafael dos Santos,pessoa,,0,0,1,
+Q:Joaquim Almeida Barbosa,Joaquim Almeida Barbosa,pessoa,,0,0,1,
+A:Grupo Regional de Moreira da Maia,Grupo Regional de Moreira da Maia,agrupamento,,0,0,0,
+Q:Joaquim Alves,Joaquim Alves,pessoa,,0,0,1,
+Q:Joaquim Alves Lima,Joaquim Alves Lima,pessoa,,0,0,1,
+A:Grupo Folclórico da Casa do Povo de Briteiros — Gondomar,Grupo Folclórico da Casa do Povo de Briteiros — Gondomar,agrupamento,,0,0,0,
+Q:Joaquim Cândido da Mota Leite,Joaquim Cândido da Mota Leite,pessoa,,0,0,1,
+A:Grupo Folclórico Dr. Gonçalo Sampaio,Grupo Folclórico Dr. Gonçalo Sampaio,agrupamento,,0,0,0,
+Q:Joaquim Ferraz,Joaquim Ferraz,pessoa,,0,0,1,
+Q:Joaquim Francisco Ramos,Joaquim Francisco Ramos,pessoa,,0,0,1,
+A:Rancho Folclórico Camponeses de Riachos,Rancho Folclórico Camponeses de Riachos,agrupamento,,0,0,0,
+Q:Joaquim Manuel S. Carvalho,Joaquim Manuel S. Carvalho,pessoa,,0,0,1,
+A:Rancho Regional de Gulpilhares,Rancho Regional de Gulpilhares,agrupamento,,0,0,0,
+Q:Joaquim de Sousa,Joaquim de Sousa,pessoa,,0,0,1,
+A:Rancho Folclórico da Casa do Povo de Benavente,Rancho Folclórico da Casa do Povo de Benavente,agrupamento,,0,0,0,
+A:Rancho das Cantarinhas de Buarcos,Rancho das Cantarinhas de Buarcos,agrupamento,,0,0,0,
+Q:Jorge Manuel Novais Bosie,Jorge Manuel Novais Bosie,pessoa,,0,0,1,
+Q:José Alberto Almeida Rebelo,José Alberto Almeida Rebelo,pessoa,,0,0,1,
+A:Rancho do Douro Litoral — Porto,Rancho do Douro Litoral — Porto,agrupamento,,0,0,0,
+Q:José Antunes,José Antunes,pessoa,,0,0,1,
+Q:José Augusto Azenha Marques,José Augusto Azenha Marques,pessoa,,0,0,1,
+Q:José Augusto Felícia Mendes,José Augusto Felícia Mendes,pessoa,,0,0,1,
+Q:José Cachola Alcântara,José Cachola Alcântara,pessoa,,0,0,1,
+Q:José Calejo,José Calejo,pessoa,,0,0,1,
+Q:José Castro e Silva,José Castro e Silva,pessoa,,0,0,1,
+Q:José Gardete,José Gardete,pessoa,,0,0,1,
+A:Grupo das Danças das Virgens — Lousa — Castelo Branco,Grupo das Danças das Virgens — Lousa — Castelo Branco,agrupamento,,0,0,0,
+Q:José João da Silva Guardiano,José João da Silva Guardiano,pessoa,,0,0,1,
+A:Rancho Folclórico de Almeirim,Rancho Folclórico de Almeirim,agrupamento,,0,0,0,
+Q:José Manuel Esgalhado,José Manuel Esgalhado,pessoa,,0,0,1,
+A:Rancho Estrela da Pousadinha,Rancho Estrela da Pousadinha,agrupamento,,0,0,0,
+Q:José Manuel Ferreira Oliveira,José Manuel Ferreira Oliveira,pessoa,,0,0,1,
+A:Grupo Folclórico Santiago de Custóias,Grupo Folclórico Santiago de Custóias,agrupamento,,0,0,0,
+Q:José Manuel Rodrigues Salgado,José Manuel Rodrigues Salgado,pessoa,,0,0,1,
+A:Grupo Folclórico da Região do Vouga — Mourisca do Vouga,Grupo Folclórico da Região do Vouga — Mourisca do Vouga,agrupamento,,0,0,0,
+Q:José Úrsula Matias,José Úrsula Matias,pessoa,,0,0,1,
+Q:Júlio do Rosário da Silva,Júlio do Rosário da Silva,pessoa,,0,0,1,
+A:Rancho da Casa do Povo de Paio,Rancho da Casa do Povo de Paio,agrupamento,,0,0,0,
+A:Grupo Académico de Danças Ribatejanas — Santarém,Grupo Académico de Danças Ribatejanas — Santarém,agrupamento,,0,0,0,
+Q:Manuel Artur dos Santos,Manuel Artur dos Santos,pessoa,,0,0,1,
+A:Rancho da Região de Leiria,Rancho da Região de Leiria,agrupamento,,0,0,0,
+Q:Manuel Barbosa Rodrigues,Manuel Barbosa Rodrigues,pessoa,,0,0,1,
+A:Grupo Folclórico de Vila Verde,Grupo Folclórico de Vila Verde,agrupamento,,0,0,0,
+Q:Manuel Cadafaz de Matos,Manuel Cadafaz de Matos,pessoa,,0,0,1,"Antropólogo, especialista em antropologia musical (Actas, p. X)."
+Q:Manuel Fernandes Ribeiro,Manuel Fernandes Ribeiro,pessoa,,0,0,1,
+A:Grupo Folclórico de Corredoura — Guimarães,Grupo Folclórico de Corredoura — Guimarães,agrupamento,,0,0,0,
+Q:Manuel Gens,Manuel Gens,pessoa,,0,0,1,
+A:Rancho Infantil de Moreira da Maia,Rancho Infantil de Moreira da Maia,agrupamento,,0,0,0,
+Q:Manuel Gonçalves Moura,Manuel Gonçalves Moura,pessoa,,0,0,1,
+Q:Manuel José Leite Barbosa,Manuel José Leite Barbosa,pessoa,,0,0,1,
+Q:Manuel Lopes Marques,Manuel Lopes Marques,pessoa,,0,0,1,
+Q:Manuel Maria Nunes,Manuel Maria Nunes,pessoa,,0,0,1,
+Q:Manuel Maria dos Santos Neves,Manuel Maria dos Santos Neves,pessoa,,0,0,1,
+Q:Manuel O. Soares Nogueira,Manuel O. Soares Nogueira,pessoa,,0,0,1,
+A:Rancho Folclórico de Vila Verde,Rancho Folclórico de Vila Verde,agrupamento,,0,0,0,
+Q:Manuel dos Santos Teixeira,Manuel dos Santos Teixeira,pessoa,,0,0,1,
+Q:Maria dos Anjos A. M. Fonseca,Maria dos Anjos A. M. Fonseca,pessoa,,0,0,1,
+A:Rancho Folclórico de Vinhó — Gouveia,Rancho Folclórico de Vinhó — Gouveia,agrupamento,,0,0,0,
+Q:Maria Armanda Oliveira,Maria Armanda Oliveira,pessoa,,0,0,1,
+Q:Maria Cândida Guia Duarte,Maria Cândida Guia Duarte,pessoa,,0,0,1,
+A:Grupo Folclórico de Pias — Cinfães,Grupo Folclórico de Pias — Cinfães,agrupamento,,0,0,0,
+Q:Maria Clara Galhano da Costa,Maria Clara Galhano da Costa,pessoa,,0,0,1,
+Q:Maria Edite M. P. Gonçalves,Maria Edite M. P. Gonçalves,pessoa,,0,0,1,
+Q:Maria José Terragoso,Maria José Terragoso,pessoa,,0,0,1,
+Q:Maria Júlia G. Cadete,Maria Júlia G. Cadete,pessoa,,0,0,1,
+Q:Maria Luciana A. Guerra,Maria Luciana A. Guerra,pessoa,,0,0,1,
+Q:Maria Luísa A. C. Veríssimo,Maria Luísa A. C. Veríssimo,pessoa,,0,0,1,
+Q:Maria Odete M. S. Silva,Maria Odete M. S. Silva,pessoa,,0,0,1,
+Q:Maria do Rosário C. Amaral,Maria do Rosário C. Amaral,pessoa,,0,0,1,
+Q:Mário de Castro Rocha,Mário de Castro Rocha,pessoa,,0,0,1,
+Q:Mário Luís Marques,Mário Luís Marques,pessoa,,0,0,1,
+Q:Mário Rui Barreto,Mário Rui Barreto,pessoa,,0,0,1,
+Q:Mário dos Santos Resende,Mário dos Santos Resende,pessoa,,0,0,1,
+Q:Miguel Paulo Coelho Cachola,Miguel Paulo Coelho Cachola,pessoa,,0,0,1,
+Q:Miguel Simões da Fonte Pessoa,Miguel Simões da Fonte Pessoa,pessoa,,0,0,1,
+Q:Olímpia Plácida Nunes,Olímpia Plácida Nunes,pessoa,,0,0,1,
+Q:Pedro de Carvalho,Pedro de Carvalho,pessoa,,0,0,1,
+A:Rancho Típico da Amorosa — Leça da Palmeira,Rancho Típico da Amorosa — Leça da Palmeira,agrupamento,,0,0,0,
+Q:Raúl Manuel P. Matos Fernandes,Raúl Manuel P. Matos Fernandes,pessoa,,0,0,1,
+I2:Câmara Municipal do Porto,Câmara Municipal do Porto,instituição,Administração / turismo,0,0,0,Filiação indicada por um participante do II Congresso da FFP.
+Q:Rogério Manuel S. Resende,Rogério Manuel S. Resende,pessoa,,0,0,1,
+Q:Rogério Neto,Rogério Neto,pessoa,,0,0,1,
+Q:Rui Manuel Aguiar S. Cruz,Rui Manuel Aguiar S. Cruz,pessoa,,0,0,1,
+Q:Rui Sérgio S. Santos,Rui Sérgio S. Santos,pessoa,,0,0,1,
+Q:Saúl Oliveira Vaio,Saúl Oliveira Vaio,pessoa,,0,0,1,
+Q:Saúl Paiva Nobre,Saúl Paiva Nobre,pessoa,,0,0,1,
+Q:Sebastião Vieira da Silva,Sebastião Vieira da Silva,pessoa,,0,0,1,
+Q:Serafim da Silva Carneiro,Serafim da Silva Carneiro,pessoa,,0,0,1,
+A:Rancho Típico de S. Mamede de Infesta,Rancho Típico de S. Mamede de Infesta,agrupamento,,0,0,0,
+Q:Teresa Alzira da Conceição Augusto,Teresa Alzira da Conceição Augusto,pessoa,,0,0,1,
+Q:Ulisses Carvalho de Jesus,Ulisses Carvalho de Jesus,pessoa,,0,0,1,
+Q:Victor Manuel Justo Baptista,Victor Manuel Justo Baptista,pessoa,,0,0,1,
+H:Ministro das Corporações,Ministro das Corporações,cargo,"Estado Novo: corporações, partido, Assembleia",0,0,0,"Cargo (não pessoa) na comissão de honra. Função: Estado Novo: corporações, partido, Assembleia."
+H:Subsecretário de Estado da Educação Nacional,Subsecretário de Estado da Educação Nacional,cargo,Governo: educação,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Governo: educação.
+"H:Secretário Nacional de Informação, Cultura Popular e Turismo (SNI)","Secretário Nacional de Informação, Cultura Popular e Turismo (SNI)",cargo,"Informação, cultura popular e turismo",0,0,0,"Cargo (não pessoa) na comissão de honra. Função: Informação, cultura popular e turismo."
+H:Reitor da Universidade do Porto,Reitor da Universidade do Porto,cargo,Universidade e academias,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Universidade e academias.
+H:Presidente da Academia das Ciências de Lisboa,Presidente da Academia das Ciências de Lisboa,cargo,Universidade e academias,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Universidade e academias.
+H:Presidente da Academia Portuguesa de História,Presidente da Academia Portuguesa de História,cargo,Universidade e academias,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Universidade e academias.
+H:Presidente do Instituto de Alta Cultura,Presidente do Instituto de Alta Cultura,cargo,Universidade e academias,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Universidade e academias.
+H:Comandante da 1.ª Região Militar,Comandante da 1.ª Região Militar,cargo,Militar,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Militar.
+H:Presidente do Instituto de Coimbra,Presidente do Instituto de Coimbra,cargo,Universidade e academias,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Universidade e academias.
+H:Presidente da FNAT,Presidente da FNAT,cargo,"Estado Novo: corporações, partido, Assembleia",0,0,0,"Cargo (não pessoa) na comissão de honra. Função: Estado Novo: corporações, partido, Assembleia."
+H:Arcebispo Primaz,Arcebispo Primaz,cargo,Igreja,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Igreja.
+H:Governador Civil de Braga,Governador Civil de Braga,cargo,Administração territorial,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Administração territorial.
+H:Governador Civil de Viana do Castelo,Governador Civil de Viana do Castelo,cargo,Administração territorial,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Administração territorial.
+H:Presidente da Junta de Província do Minho,Presidente da Junta de Província do Minho,cargo,Administração territorial,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Administração territorial.
+H:Corregedor Presidente do Círculo Judicial de Braga,Corregedor Presidente do Círculo Judicial de Braga,cargo,Justiça,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Justiça.
+H:Presidente da Câmara Municipal de Viana do Castelo,Presidente da Câmara Municipal de Viana do Castelo,cargo,Município,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Município.
+H:Comandante Militar de Braga,Comandante Militar de Braga,cargo,Militar,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Militar.
+H:Presidente da Comissão Distrital da União Nacional em Braga,Presidente da Comissão Distrital da União Nacional em Braga,cargo,"Estado Novo: corporações, partido, Assembleia",0,0,0,"Cargo (não pessoa) na comissão de honra. Função: Estado Novo: corporações, partido, Assembleia."
+H:Reitor da Faculdade Pontifícia de Filosofia,Reitor da Faculdade Pontifícia de Filosofia,cargo,Igreja,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Igreja.
+H:Deputados da Nação de Braga e Viana do Castelo,Deputados da Nação de Braga e Viana do Castelo,cargo,"Estado Novo: corporações, partido, Assembleia",0,0,0,"Cargo (não pessoa) na comissão de honra. Função: Estado Novo: corporações, partido, Assembleia."
+H:Presidente do Cabido Metropolitano,Presidente do Cabido Metropolitano,cargo,Igreja,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Igreja.
+H:Presidente da República,Presidente da República,cargo,Chefia do Estado,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Chefia do Estado.
+H:Ministro da Coordenação Cultural,Ministro da Coordenação Cultural,cargo,"Informação, cultura popular e turismo",0,0,0,"Cargo (não pessoa) na comissão de honra. Função: Informação, cultura popular e turismo."
+H:Ministro do Comércio e Turismo,Ministro do Comércio e Turismo,cargo,"Informação, cultura popular e turismo",0,0,0,"Cargo (não pessoa) na comissão de honra. Função: Informação, cultura popular e turismo."
+H:Ministro da Comunicação Social,Ministro da Comunicação Social,cargo,"Informação, cultura popular e turismo",0,0,0,"Cargo (não pessoa) na comissão de honra. Função: Informação, cultura popular e turismo."
+H:Comandante da Região Militar Centro,Comandante da Região Militar Centro,cargo,Militar,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Militar.
+H:Governador Civil do Distrito de Coimbra,Governador Civil do Distrito de Coimbra,cargo,Administração territorial,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Administração territorial.
+H:Bispo da Diocese de Coimbra,Bispo da Diocese de Coimbra,cargo,Igreja,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Igreja.
+H:Reitor da Universidade de Coimbra,Reitor da Universidade de Coimbra,cargo,Universidade e academias,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Universidade e academias.
+H:Presidente da Câmara Municipal de Coimbra,Presidente da Câmara Municipal de Coimbra,cargo,Município,0,0,0,Cargo (não pessoa) na comissão de honra. Função: Município.
