@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Congressos · Redes do folclore organizado</title>
+<meta name="description" content="Análise de rede dos congressos de etnografia e folclore (1956–1987) e dos órgãos sociais da Federação do Folclore Português (1977–2025).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/rede.css">
+</head>
+<body>
+<nav class="topnav" aria-label="Páginas do site"><div class="navin"><a class="brand" href="index.html">Redes do folclore organizado</a><div class="links"><a href="index.html">Início</a><a href="rede.html">Rede completa</a><a href="orgaos.html">Órgãos sociais da FFP</a><a href="poder.html">Poder e renovação</a><a href="congressos.html" aria-current="page">Congressos</a><a href="metodo.html">Método e dados</a></div></div></nav>
+<main class="wrap">
+<header class="pagehead"><span class="eyebrow">Braga 1956 · Santo Tirso 1963 · Vila do Conde 1977 e 1978 · Coimbra 1987</span><h1>Congressos de etnografia e folclore</h1>
+<p class="lede prose">Quem apadrinhou os congressos antes e depois de 1974, e quem estava na sala do II Congresso da Federação do Folclore Português. Clique num nome para o ver na rede completa.</p></header>
+<section id="honra" aria-labelledby="h-honra">
+  <div class="prose" style="display:grid;gap:8px">
+    <h2 id="h-honra">Comissões de honra: o modelo protocolar antes e depois de 1974</h2>
+    <p class="small">Cargos (não pessoas) nas comissões de honra de Braga 1956 (nacional e provincial) e do II Congresso da FFP, agrupados por função. Cada linha alinha posições estruturalmente equivalentes.</p>
+  </div>
+  <div class="panel" style="padding:4px 16px 12px">
+    <div class="honor" id="honor"></div>
+  </div>
+  <p class="callout prose">Leitura proposta: o folclore continua a ser apadrinhado pelo mesmo conjunto de poderes locais e simbólicos. O que desaparece é a moldura corporativa e de partido único. O Secretariado Nacional de Informação, Cultura Popular e Turismo, que em 1956 juntava propaganda, cultura popular e turismo num só organismo, surge em 1987 repartido por três ministérios: Comunicação Social, Coordenação Cultural, Comércio e Turismo. A comissão executiva de 1987 inclui ainda o chefe dos Serviços Municipais de Turismo de Coimbra.</p>
+</section>
+<section id="ffp1987" aria-labelledby="h-ffp">
+  <div class="prose" style="display:grid;gap:8px">
+    <h2 id="h-ffp">II Congresso da FFP: quem estava na sala</h2>
+    <p class="small">157 participantes e a filiação impressa nas Actas (pp. VII–XII). Variantes gráficas do mesmo grupo foram juntas; a tabela mostra a forma impressa e a normalizada.</p>
+  </div>
+  <div class="two">
+    <div class="panel" style="padding:16px;display:grid;gap:10px">
+      <h3>Maiores delegações</h3>
+      <p class="small">Filiações com 3 ou mais participantes.</p>
+      <div class="chart" id="barChart"></div>
+    </div>
+    <div class="panel" style="padding:16px;display:grid;gap:10px">
+      <h3>Tamanho das delegações</h3>
+      <p class="small">Número de agrupamentos folclóricos por número de participantes inscritos.</p>
+      <div class="chart" id="histChart"></div>
+      <div class="tbl-wrap"><table id="typeTable" aria-label="Participantes por tipo de filiação"></table></div>
+    </div>
+  </div>
+  <div class="two">
+    <div style="display:grid;gap:10px">
+      <h3>Delegações com apelidos partilhados</h3>
+      <p class="small">Apelidos raros repetidos dentro do mesmo grupo: indício de recrutamento familiar, a confirmar. Apelidos muito comuns (Silva, Santos) foram excluídos.</p>
+      <div class="tbl-wrap"><table id="famTable"></table></div>
+    </div>
+    <div style="display:grid;gap:10px">
+      <h3>Quem liga 1987 ao resto da rede</h3>
+      <p class="small">Participantes de 1987 que também aparecem como organizadores ou como dirigentes da FFP, com o agrupamento que indicaram.</p>
+      <div class="tbl-wrap"><table id="linkTable"></table></div>
+    </div>
+  </div>
+  <details>
+    <summary>Lista completa de participantes (pesquisável)</summary>
+    <div style="display:grid;gap:10px">
+      <label for="q" class="small">Pesquisar por nome ou agrupamento</label>
+      <input type="search" id="q" placeholder="ex.: Águeda, Leiria, Marques">
+      <div class="tbl-wrap"><table id="partTable"></table></div>
+    </div>
+  </details>
+</section>
+</main>
+<footer class="foot"><div class="footin"><span>Redes do folclore organizado, 1956–2025 · Fontes: programa do I Congresso de Etnografia e Folclore (Braga, 1956); Actas do II Congresso da FFP (Coimbra, 1987); separatas de Santo Tirso (1963); ffp.pt; Revista de Guimarães.</span><a href="metodo.html">Método, fontes e dados para descarregar</a></div></footer>
+<div class="tooltip" id="tip" role="status"></div>
+<script src="assets/d3.min.js"></script>
+<script src="dados/rede.js"></script>
+<script src="js/rede.js"></script>
+</body>
+</html>

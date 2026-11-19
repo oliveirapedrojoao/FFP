@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Poder e renovação · Redes do folclore organizado</title>
+<meta name="description" content="Análise de rede dos congressos de etnografia e folclore (1956–1987) e dos órgãos sociais da Federação do Folclore Português (1977–2025).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/poder.css">
+</head>
+<body>
+<nav class="topnav" aria-label="Páginas do site"><div class="navin"><a class="brand" href="index.html">Redes do folclore organizado</a><div class="links"><a href="index.html">Início</a><a href="rede.html">Rede completa</a><a href="orgaos.html">Órgãos sociais da FFP</a><a href="poder.html" aria-current="page">Poder e renovação</a><a href="congressos.html">Congressos</a><a href="metodo.html">Método e dados</a></div></div></nav>
+<main class="wrap">
+
+<header class="top pagehead">
+  <span class="eyebrow">Rede de co-serviço nos órgãos sociais da Federação do Folclore Português</span>
+  <h1>Poder e renovação na FFP, 1977–2025</h1>
+  <p class="lede prose">Respostas às quatro perguntas sobre a direção da Federação, calculadas sobre a Comissão Instaladora (1977) e os 16 mandatos de 1978 a 2025: 97 pessoas e 386 lugares na Assembleia Geral, Direção e Conselho Fiscal. Duas pessoas estão ligadas quando serviram no mesmo mandato; o peso da ligação é o número de mandatos em comum. Fonte: página «Antigos Órgãos Sociais» de ffp.pt.</p>
+</header>
+
+<section aria-labelledby="h-resumo" style="display:grid;gap:14px">
+  <h2 id="h-resumo">As quatro respostas</h2>
+  <div class="answers">
+    <a class="ans" href="#q1"><span class="q">Quão fechado é o núcleo dirigente?</span><span class="a">Muito fechado até 2004, mais aberto depois</span><p>Um núcleo de 20 pessoas chegou a ocupar 20 dos 21 lugares (1996 e 1999). Depois de 2005 forma-se outro núcleo, de 16, com só 2 pessoas em comum.</p></a>
+    <a class="ans" href="#q2"><span class="q">2005 e 2017 trouxeram outro grupo?</span><span class="a">2005 sim, a meio; 2017 não</span><p>Em 2005, 11 de 23 membros eram novos. Em 2017, só 3 de 25: o novo presidente saiu do grupo formado com o seu antecessor.</p></a>
+    <a class="ans" href="#q3"><span class="q">Há uma carreira típica de cargos?</span><span class="a">Sim, mas dentro da Direção</span><p>79% ficam num só órgão. Não há escada do Conselho Fiscal ou da Assembleia Geral para a Direção; sobe-se de suplente a vice-presidente e daí a presidente.</p></a>
+    <a class="ans" href="#q4"><span class="q">Quando e onde entram as mulheres?</span><span class="a">Tarde, e nunca na presidência</span><p>Uma só mulher entre 1978 e 2002. A partir de 2005 entram na Direção e na Assembleia Geral; chegam a 40% em 2017, mas nenhuma presidiu a um órgão.</p></a>
+  </div>
+</section>
+
+<section class="q" id="q1" aria-labelledby="h-q1">
+  <div class="qhead">
+    <span class="eyebrow">Pergunta 1 · rede pessoa–pessoa e k-core</span>
+    <h2 id="h-q1">Quão fechado é o núcleo dirigente?</h2>
+  </div>
+  <div class="answer">
+    <p><b>Muito fechado durante a presidência de Gomes dos Santos.</b> Um núcleo histórico de 20 pessoas, em que quase todos os pares serviram juntos pelo menos três mandatos, ocupou 176 dos 386 lugares de toda a história da Federação (46%). Em 1977 tinha 4 lugares; em 1996 e 1999 tinha 20 de 21.</p>
+    <p><b>A partir de 2005 forma-se um segundo núcleo</b>, de 16 pessoas, que ocupa 14 de 25 lugares entre 2011 e 2017. Os dois núcleos só partilham duas pessoas, ambas da Assembleia Geral: Eduardo dos Santos Duarte e António Lopes Pires. Em 2020 e 2023 cresce a parte de lugares fora dos dois núcleos (13 de 25; 24 de 34), em parte porque a Direção de 2023 tem mais suplentes.</p>
+  </div>
+  <div class="panel">
+    <h3>Lugares de cada mandato ocupados pelos dois núcleos</h3>
+    <div class="legend"><span><i style="background:var(--c1)"></i>Núcleo histórico (formado 1977–2004, 20 pessoas)</span><span><i style="background:var(--c2)"></i>Núcleo recente (formado 2005–2025, 16 pessoas, sem as 2 comuns)</span><span><i style="background:var(--neutral)"></i>Outros</span></div>
+    <div class="chart" id="q1share"></div>
+  </div>
+  <div class="grid21">
+    <div class="panel">
+      <h3>Quem serviu com quem</h3>
+      <div class="ctrl">
+        <label for="q1w">Mostrar ligações entre quem serviu junto em pelo menos</label>
+        <input type="range" id="q1w" min="1" max="8" value="3"><output id="q1wv">3</output><span>mandatos</span>
+        <button class="btn" type="button" id="q1fit">Ajustar</button>
+      </div>
+      <div class="legend"><span><i class="dot" style="background:var(--c1)"></i>Núcleo histórico</span><span><i class="dot" style="background:var(--c2)"></i>Núcleo recente</span><span><i class="dot" style="background:var(--c3)"></i>Nos dois núcleos</span><span><i class="dot" style="background:var(--neutral)"></i>Outros</span><span>Tamanho: n.º de mandatos · contorno escuro: k-core máximo com o limiar escolhido</span></div>
+      <div class="chart net" id="q1net"></div>
+      <p class="small" id="q1info"></p>
+    </div>
+    <div class="panel">
+      <h3>Concentração dos lugares</h3>
+      <div class="cards">
+        <div class="card"><span class="big">46%</span><span class="small">dos lugares ocupados pelas 20 pessoas do núcleo histórico</span></div>
+        <div class="card"><span class="big">29%</span><span class="small">dos lugares ocupados pelas 10 pessoas com mais mandatos</span></div>
+        <div class="card"><span class="big">27 <small>de 97</small></span><span class="small">pessoas estiveram um só mandato</span></div>
+      </div>
+      <h3 style="margin-top:6px">Pessoas por número de mandatos</h3>
+      <div class="chart" id="q1dist"></div>
+      <p class="small">Porque não o k-core simples: cada mandato liga todos os seus membros entre si, por isso o núcleo máximo da rede sem limiar é só o mandato maior (2023, k = 33). Com o limiar de 3 mandatos em comum, o núcleo máximo (k = 18 em 20 pessoas) é o grupo que se manteve junto durante décadas.</p>
+    </div>
+  </div>
+</section>
+
+<section class="q" id="q2" aria-labelledby="h-q2">
+  <div class="qhead">
+    <span class="eyebrow">Pergunta 2 · comunidades e continuidade entre mandatos</span>
+    <h2 id="h-q2">As mudanças de presidente trouxeram outro grupo de pessoas?</h2>
+  </div>
+  <div class="answer">
+    <p><b>2005 foi uma renovação a meio, com sucessão interna.</b> Dos 23 membros do primeiro mandato de Fernando Ferreira da Silva, 12 vinham da era de Gomes dos Santos e 11 eram novos; 9 dos 12 que ficaram mudaram de cargo (6 subiram) e 9 membros de 2002 saíram. O novo presidente era o vice-presidente da Direção.</p>
+    <p><b>2017 foi rotação dentro do mesmo grupo.</b> Dos 25 membros do primeiro mandato de Daniel Calado Café, 22 já tinham servido com Ferreira da Silva e só 3 eram novos; 5 mudaram de cargo. A deteção de comunidades (Louvain, modularidade 0,35) encontra três grupos: um de 1977–2004, um de 2005–2025 e um pequeno grupo de transição que só esteve em 2005–2008. A fronteira de 2017 não separa comunidades.</p>
+  </div>
+  <div class="grid2">
+    <div class="panel">
+      <h3>Semelhança entre mandatos</h3>
+      <p class="small">Índice de Jaccard: parte das pessoas que dois mandatos têm em comum. Os blocos escuros são períodos de continuidade; as linhas marcam as mudanças de presidente.</p>
+      <div class="chart" id="q2jac"></div>
+    </div>
+    <div class="panel">
+      <h3>Composição de cada mandato por comunidade</h3>
+      <div class="legend"><span><i style="background:var(--c1)"></i>Comunidade A · 42 pessoas</span><span><i style="background:var(--c2)"></i>Comunidade B · 47 pessoas</span><span><i style="background:var(--c3)"></i>Comunidade C (transição) · 8 pessoas</span></div>
+      <div class="chart" id="q2comp"></div>
+      <h3>As duas passagens de testemunho</h3>
+      <div class="tbl-wrap"><table id="q2tab"></table></div>
+    </div>
+  </div>
+  <div class="panel">
+    <h3>A rede colorida pelas comunidades</h3>
+    <div class="ctrl"><label for="q2w">Ligações com pelo menos</label><input type="range" id="q2w" min="1" max="8" value="2"><output id="q2wv">2</output><span>mandatos em comum</span><button class="btn" type="button" id="q2fit">Ajustar</button></div>
+    <div class="legend"><span><i class="dot" style="background:var(--c1)"></i>Comunidade A</span><span><i class="dot" style="background:var(--c2)"></i>Comunidade B</span><span><i class="dot" style="background:var(--c3)"></i>Comunidade C</span><span>Contorno escuro: presidentes da Direção</span></div>
+    <div class="chart net" id="q2net"></div>
+  </div>
+</section>
+
+<section class="q" id="q3" aria-labelledby="h-q3">
+  <div class="qhead">
+    <span class="eyebrow">Pergunta 3 · sequências de cargos</span>
+    <h2 id="h-q3">Há uma carreira típica de cargos?</h2>
+  </div>
+  <div class="answer">
+    <p><b>Não há escada entre órgãos.</b> 77 das 97 pessoas (79%) só serviram num órgão. Das 289 passagens de um mandato para o seguinte, 264 ficaram no mesmo órgão. Só quatro pessoas passaram do Conselho Fiscal ou da Assembleia Geral para a Direção; o movimento mais frequente é o inverso, da Direção para o Conselho Fiscal (7 casos), sobretudo em fim de percurso.</p>
+    <p><b>A carreira faz-se dentro da Direção.</b> 43 pessoas entraram como suplentes ou substitutos e 17 delas subiram depois. Os dois sucessores de Gomes dos Santos seguiram esse caminho: Fernando Ferreira da Silva (secretário-adjunto em 1993, vice-presidente em 1999, presidente em 2005) e Daniel Calado Café (suplente em 2011, 5.º vice-presidente em 2014, presidente em 2017). Na maior parte das passagens o nível mantém-se (237); há 39 subidas e 13 descidas.</p>
+  </div>
+  <div class="panel">
+    <h3>Percursos de quem esteve em 4 ou mais mandatos</h3>
+    <div class="legend"><span><i style="background:var(--c1)"></i>Direção</span><span><i style="background:var(--c2)"></i>Assembleia Geral</span><span><i style="background:var(--c3)"></i>Conselho Fiscal</span><span><i style="background:var(--muted)"></i>Comissão Instaladora (1977)</span><span>Letras: P presidente · VP vice-presidente · S secretário, tesoureiro ou relator · V vogal · Su suplente ou substituto · contorno escuro: presidência de um órgão · nome a negrito: presidente da Direção</span></div>
+    <div class="tbl-wrap"><div id="q3grid"></div></div>
+  </div>
+  <div class="grid2">
+    <div class="panel">
+      <h3>Para onde se passa de um mandato ao seguinte: órgão</h3>
+      <p class="small">Linhas: órgão no mandato anterior; colunas: órgão no mandato seguinte, para a mesma pessoa.</p>
+      <div class="chart" id="q3org"></div>
+    </div>
+    <div class="panel">
+      <h3>Para onde se passa: nível do cargo</h3>
+      <p class="small">Abaixo da diagonal descem, acima sobem.</p>
+      <div class="chart" id="q3lvl"></div>
+      <h3>Por onde se entra</h3>
+      <div class="chart" id="q3ent"></div>
+    </div>
+  </div>
+</section>
+
+<section class="q" id="q4" aria-labelledby="h-q4">
+  <div class="qhead">
+    <span class="eyebrow">Pergunta 4 · género codificado pelo nome próprio</span>
+    <h2 id="h-q4">Quando e em que cargos entram as mulheres na direção?</h2>
+  </div>
+  <div class="answer">
+    <p><b>Durante 27 anos houve uma só mulher nos órgãos:</b> Maria Cândida Garrido Duarte, relatora do Conselho Fiscal em nove mandatos seguidos (1978–2004). Antes dela, Isabel Maria Calejo esteve nas mesas do congresso e das assembleias eleitorais de 1977 e 1978, fora dos órgãos.</p>
+    <p><b>As mulheres entram na Direção e na Assembleia Geral com a mudança de presidente de 2005</b> (Maria Emília Francisco, vogal; Ana Lourenço Rodrigues Machado, secretária da AG), e em 2008 surge a primeira vice-presidente da Direção (Maria Manuela Carriço). O salto dá-se em 2011, sobretudo como suplentes; o máximo é 10 de 25 em 2017 (40%). Das 17 mulheres, 8 entraram como suplentes. O cargo mais alto foi vice-presidente; em 48 anos nenhuma mulher presidiu à Direção, à Assembleia Geral ou ao Conselho Fiscal.</p>
+  </div>
+  <div class="panel">
+    <h3>Mulheres em cada mandato, por órgão</h3>
+    <div class="legend"><span><i style="background:var(--c1)"></i>Direção</span><span><i style="background:var(--c2)"></i>Assembleia Geral</span><span><i style="background:var(--c3)"></i>Conselho Fiscal</span><span><i style="background:var(--neutral)"></i>Homens</span></div>
+    <div class="chart" id="q4bars"></div>
+  </div>
+  <div class="panel">
+    <h3>Percursos das 17 mulheres</h3>
+    <div class="legend"><span><i style="background:var(--c1)"></i>Direção</span><span><i style="background:var(--c2)"></i>Assembleia Geral</span><span><i style="background:var(--c3)"></i>Conselho Fiscal</span><span>Letras: VP vice-presidente · S secretária, tesoureira ou relatora · V vogal · Su suplente</span></div>
+    <div class="tbl-wrap"><div id="q4grid"></div></div>
+  </div>
+  <div class="panel">
+    <h3>Onde estão na rede</h3>
+    <div class="legend"><span><i class="dot" style="background:var(--fem)"></i>Mulheres</span><span><i class="dot" style="background:var(--neutral)"></i>Homens</span><span>Ligações com 2 ou mais mandatos em comum. As mulheres concentram-se no grupo formado depois de 2005.</span></div>
+    <div class="chart net" id="q4net"></div>
+  </div>
+</section>
+
+<section class="notes" aria-labelledby="h-met">
+  <h2 id="h-met">Método e cautelas</h2>
+  <ul>
+    <li>Fonte: «Antigos Órgãos Sociais» de ffp.pt (1977–2025), transcrito na análise anterior. As mesas do congresso e das assembleias eleitorais (1977–1978) ficam fora dos órgãos e só entram na pergunta 4.</li>
+    <li>Rede pessoa–pessoa: ligação entre quem serviu no mesmo mandato, com peso igual ao número de mandatos em comum. Núcleos: k-core máximo da rede com ligações de peso ≥ 3, calculado separadamente para 1977–2004 e 2005–2025.</li>
+    <li>Comunidades: algoritmo de Louvain com peso (semente fixa). A comunidade de cada pessoa é a mesma em toda a página.</li>
+    <li>Cargo principal num mandato: o de nível mais alto quando a pessoa acumula. Níveis: presidente, vice-presidente, secretário/tesoureiro/relator, vogal, suplente/substituto.</li>
+    <li>Género codificado à mão a partir do nome próprio; convém confirmar. Junções de nomes a confirmar que afetam os resultados: Ludgero Mendes / Ludgero António de Jesus Mendes; Maria Emília Francisco / Maria Emília Costa Ferreira Francisco; Ana Rita Leitão / Ana Rita Rodrigues Leitão Granja Vieira.</li>
+    <li>O site não lista o Conselho Técnico, onde estiveram figuras como Manuel Chaves e Castro: o poder técnico sobre o folclore não está nesta rede.</li>
+  </ul>
+</section>
+
+</main>
+<footer class="foot"><div class="footin"><span>Redes do folclore organizado, 1956–2025 · Fontes: programa do I Congresso de Etnografia e Folclore (Braga, 1956); Actas do II Congresso da FFP (Coimbra, 1987); separatas de Santo Tirso (1963); ffp.pt; Revista de Guimarães.</span><a href="metodo.html">Método, fontes e dados para descarregar</a></div></footer>
+<div class="tooltip" id="tip" role="status"></div>
+<script src="assets/d3.min.js"></script>
+<script src="dados/poder.js"></script>
+<script src="js/poder.js"></script>
+</body>
+</html>

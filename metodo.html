@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Método e dados · Redes do folclore organizado</title>
+<meta name="description" content="Análise de rede dos congressos de etnografia e folclore (1956–1987) e dos órgãos sociais da Federação do Folclore Português (1977–2025).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/rede.css">
+</head>
+<body>
+<nav class="topnav" aria-label="Páginas do site"><div class="navin"><a class="brand" href="index.html">Redes do folclore organizado</a><div class="links"><a href="index.html">Início</a><a href="rede.html">Rede completa</a><a href="orgaos.html">Órgãos sociais da FFP</a><a href="poder.html">Poder e renovação</a><a href="congressos.html">Congressos</a><a href="metodo.html" aria-current="page">Método e dados</a></div></div></nav>
+<main class="wrap">
+<header class="pagehead"><span class="eyebrow">Como foi feito</span><h1>Método, fontes e dados</h1>
+<p class="lede prose">As camadas de fonte, as decisões de identificação e normalização, os limites da análise e os ficheiros usados em cada página.</p></header>
+<section id="metodo" aria-labelledby="h-metodo">
+  <h2 id="h-metodo">Rede: fontes, decisões e o que falta verificar</h2>
+  <div class="notes">
+    <div>
+      <h3>Camadas de fonte</h3>
+      <ul>
+        <li><b>Documentos anexados</b>: Braga 1956, pp. 11–12; Actas II Congr. FFP, p. V.</li>
+        <li><b>Listas fornecidas</b>: folcloristas no I Congresso da FFP (1978); comissão cultural de Santo Tirso (1963).</li>
+        <li><b>Outras imagens do projeto</b>: capa e participantes das Actas FFP; separatas dos discursos de Mollat, Adriano Moreira, Luís de Pina e Virgínia Rau.</li>
+        <li><b>Site da FFP</b>: atas de 1977–1978 e «Antigos Órgãos Sociais», mandatos de 1978–1980 a 2023–2025. Os participantes de 1987 que foram dirigentes só aparecem no grafo quando esta camada está ligada.</li>
+        <li><b>Congressos de Vila do Conde</b>: o de 28–29 de maio de 1977 é o congresso fundador (atas no site da FFP); o I Congresso da FFP decorreu também em Vila do Conde, a 27 de maio de 1978 (Trabalhos e Conclusões, 1979, citado por J. Vasconcelos, 2001).</li>
+        <li><b>Leitura analítica</b>: as equivalências estruturais entre cargos de honra são uma interpretação, desligada por omissão.</li>
+        <li><b>Fontes secundárias</b>: crónicas da Revista de Guimarães sobre Braga 1956 e Santo Tirso 1963, e o necrológio de Pires de Lima (1973, que imprime «1936» e «1953» por gralha).</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Identificações a confirmar</h3>
+      <ul>
+        <li>«Frei José de Santa Escolástica Matoso, O.S.B.»: provavelmente José Mattoso, então monge em Singeverga (Santo Tirso).</li>
+        <li>«Areides Baptista Simões» (lista de 1978) = «Arcides B. Simões» (Actas 1987); «Fernando Victorino de Sousa» = «Vitorino de Sousa — FFP».</li>
+                <li>Juntados como a mesma pessoa: «Ludgero Mendes» e «Ludgero António de Jesus Mendes»; «Maria Emília Francisco» e «Maria Emília Costa Ferreira Francisco»; «Ana Rita Leitão» e «Ana Rita Rodrigues Leitão Granja Vieira».</li>
+        <li>Dirigentes identificados com participantes de 1987 pelo nome: Isabel Maria Calejo, José Carvalho Gaspar, Alberto Augusto Archer Leite de Queirós, Carlos Manuel de Miranda Barreto Maltez.</li>
+        <li>Não juntados: Armando da Rocha Marques («Armando Rocha» ou «Armando Marques» em 1987?), «Padre Morais» (António José Oliveira Morais?), «José Bracourt» (Jorge Bracourt?).</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Limites e próximos passos</h3>
+      <ul>
+        <li>A p. 12 de Braga corta a lista de vogais da comissão executiva; transcrever a p. 13.</li>
+        <li>Juntar as listas de participantes de Braga 1956 e Santo Tirso 1963 para testar a rutura entre os dois mundos.</li>
+        <li>Ano de realização do II Congresso: as Actas são de 1987 e o programa refere 15–16 de setembro.</li>
+        <li>Associar cada dirigente ao seu grupo e georreferenciar os agrupamentos para ler a geografia da FFP.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section aria-labelledby="h-pm" style="display:grid;gap:10px"><h2 id="h-pm">Poder e renovação: método</h2><div class="notes"><ul style="max-width:90ch">
+    <li>Fonte: «Antigos Órgãos Sociais» de ffp.pt (1977–2025), transcrito na análise anterior. As mesas do congresso e das assembleias eleitorais (1977–1978) ficam fora dos órgãos e só entram na pergunta 4.</li>
+    <li>Rede pessoa–pessoa: ligação entre quem serviu no mesmo mandato, com peso igual ao número de mandatos em comum. Núcleos: k-core máximo da rede com ligações de peso ≥ 3, calculado separadamente para 1977–2004 e 2005–2025.</li>
+    <li>Comunidades: algoritmo de Louvain com peso (semente fixa). A comunidade de cada pessoa é a mesma em toda a página.</li>
+    <li>Cargo principal num mandato: o de nível mais alto quando a pessoa acumula. Níveis: presidente, vice-presidente, secretário/tesoureiro/relator, vogal, suplente/substituto.</li>
+    <li>Género codificado à mão a partir do nome próprio; convém confirmar. Junções de nomes a confirmar que afetam os resultados: Ludgero Mendes / Ludgero António de Jesus Mendes; Maria Emília Francisco / Maria Emília Costa Ferreira Francisco; Ana Rita Leitão / Ana Rita Rodrigues Leitão Granja Vieira.</li>
+    <li>O site não lista o Conselho Técnico, onde estiveram figuras como Manuel Chaves e Castro: o poder técnico sobre o folclore não está nesta rede.</li>
+  </ul></div></section>
+<section aria-labelledby="h-dl" style="display:grid;gap:12px">
+  <h2 id="h-dl">Dados para descarregar</h2>
+  <ul class="dl">
+    <li><a href="dados/redes_folclore_1956-2025.gexf" download>redes_folclore_1956-2025.gexf</a> · rede completa para o Gephi (410 nós, 820 ligações, com cores, tamanhos, posições, anos e camadas de fonte).</li>
+    <li><a href="dados/nos.csv" download>nos.csv</a> · todos os nós, com tipo, papéis e notas de identificação.</li>
+    <li><a href="dados/ligacoes.csv" download>ligacoes.csv</a> · todas as ligações (839 papéis), com ano, papel, camada de fonte e referência.</li>
+    <li><a href="dados/orgaos_sociais_ffp_1977-2025.csv" download>orgaos_sociais_ffp_1977-2025.csv</a> · transcrição dos órgãos sociais da FFP a partir de ffp.pt.</li>
+    <li><a href="dados/participantes_1987.csv" download>participantes_1987.csv</a> · os 157 participantes do II Congresso da FFP, com filiação impressa e normalizada.</li>
+    <li><a href="dados/comissoes_honra.csv" download>comissoes_honra.csv</a> · cargos das comissões de honra de 1956 e 1987, por função.</li>
+    <li><a href="dados/poder_pessoas.csv" download>poder_pessoas.csv</a> · os 97 dirigentes: mandatos, comunidade, núcleo, género codificado e percurso de cargos.</li>
+  </ul>
+  <p class="small prose">O site funciona sem servidor e sem ligação à internet: os dados estão em dados/*.js e a biblioteca d3 (licença ISC) em assets/. Sem internet, os tipos de letra passam para os do sistema.</p>
+</section>
+</main>
+<footer class="foot"><div class="footin"><span>Redes do folclore organizado, 1956–2025 · Fontes: programa do I Congresso de Etnografia e Folclore (Braga, 1956); Actas do II Congresso da FFP (Coimbra, 1987); separatas de Santo Tirso (1963); ffp.pt; Revista de Guimarães.</span><a href="metodo.html">Método, fontes e dados para descarregar</a></div></footer>
+<div class="tooltip" id="tip" role="status"></div>
+
+</body>
+</html>

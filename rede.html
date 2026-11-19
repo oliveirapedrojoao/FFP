@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rede completa · Redes do folclore organizado</title>
+<meta name="description" content="Análise de rede dos congressos de etnografia e folclore (1956–1987) e dos órgãos sociais da Federação do Folclore Português (1977–2025).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/rede.css">
+</head>
+<body>
+<nav class="topnav" aria-label="Páginas do site"><div class="navin"><a class="brand" href="index.html">Redes do folclore organizado</a><div class="links"><a href="index.html">Início</a><a href="rede.html" aria-current="page">Rede completa</a><a href="orgaos.html">Órgãos sociais da FFP</a><a href="poder.html">Poder e renovação</a><a href="congressos.html">Congressos</a><a href="metodo.html">Método e dados</a></div></div></nav>
+<main class="wrap">
+<section id="rede" aria-labelledby="h-rede">
+  <div class="prose" style="display:grid;gap:8px">
+    <h2 id="h-rede">A rede completa, 1956–2025</h2>
+    <p class="small">Todos os nós do estudo: congressos (linha do meio), mandatos da FFP (linha de baixo), organizadores, oradores e dirigentes, participantes e agrupamentos de 1987 (por cima da linha dos congressos) e cargos das comissões de honra. A escala temporal é por troços. Arraste para mover, use a roda do rato ou os botões para aproximar; com mais zoom aparecem mais nomes. Clique num nó para ver papéis e fontes; duplo clique isola a vizinhança.</p>
+  </div>
+  <div class="panel" id="graphPanel">
+    <div class="toolbar">
+      <div class="trow">
+        <label for="search" class="tlabel">Procurar</label>
+        <input type="search" id="search" list="nomes" placeholder="Nome de pessoa, grupo, instituição…" autocomplete="off">
+        <datalist id="nomes"></datalist>
+        <label for="sizeBy" class="tlabel">Tamanho dos nós</label>
+        <select id="sizeBy"><option value="tipo">Por tipo</option><option value="grau">N.º de ligações</option><option value="bet">Intermediação</option></select>
+        <label><input type="checkbox" id="allLabels"> Mostrar todos os nomes</label>
+        <button class="btn" type="button" id="fsBtn">⛶ Ecrã inteiro</button>
+      </div>
+      <fieldset id="layers" class="trow"><legend>Camadas de fonte</legend></fieldset>
+      <fieldset id="types" class="trow"><legend>Mostrar</legend></fieldset>
+      <div class="trow">
+        <span class="tlabel">Período</span>
+        <span class="years"><label for="y0">De</label><input type="range" id="y0" min="1956" max="2025" step="1" value="1956"><output id="y0v" for="y0">1956</output></span>
+        <span class="years"><label for="y1">até</label><input type="range" id="y1" min="1956" max="2025" step="1" value="2025"><output id="y1v" for="y1">2025</output></span>
+        <button class="btn primary" type="button" id="play">▶ Reproduzir no tempo</button>
+        <button class="btn" type="button" id="resetYears">Repor 1956–2025</button>
+      </div>
+      <div class="trow">
+        <span class="tlabel">Caminho entre</span>
+        <input type="search" id="pathA" list="nomes" placeholder="origem" autocomplete="off" aria-label="Origem do caminho">
+        <span class="small">e</span>
+        <input type="search" id="pathB" list="nomes" placeholder="destino" autocomplete="off" aria-label="Destino do caminho">
+        <button class="btn" type="button" id="pathBtn">Mostrar caminho</button>
+        <button class="btn" type="button" id="pathClear">Limpar</button>
+        <span class="small" id="pathMsg" aria-live="polite"></span>
+      </div>
+    </div>
+    <div class="stage">
+      <div id="graphWrap">
+        <div id="graph" aria-label="Grafo da rede"></div>
+        <div class="zctl">
+          <button class="btn" type="button" id="zin" aria-label="Aproximar">+</button>
+          <button class="btn" type="button" id="zout" aria-label="Afastar">−</button>
+          <button class="btn" type="button" id="zfit">Ajustar</button>
+        </div>
+        <div class="fstate small" id="filterState"></div>
+      </div>
+      <aside id="detail" class="ov" aria-live="polite"></aside>
+    </div>
+    <div class="legend-row" aria-label="Legenda">
+      <span><svg width="14" height="14"><rect x="1" y="1" width="12" height="12" rx="2" fill="var(--ink)"/></svg> Congresso</span>
+      <span><svg width="14" height="14"><rect x="2" y="2" width="10" height="10" rx="2" fill="var(--novo)"/></svg> Mandato da FFP</span>
+      <span><svg width="14" height="14"><circle cx="7" cy="7" r="5.5" fill="var(--pessoa)"/></svg> Pessoa</span>
+      <span><svg width="14" height="14"><circle cx="7" cy="7" r="4" fill="var(--pessoa)" fill-opacity=".55"/></svg> Só participante em 1987</span>
+      <span><svg width="14" height="14"><rect x="3" y="3" width="8" height="8" fill="var(--inst)" transform="rotate(45 7 7)"/></svg> Instituição</span>
+      <span><svg width="14" height="14"><path d="M7,1 L13,12 L1,12 Z" fill="var(--agr)"/></svg> Agrupamento</span>
+      <span><svg width="14" height="14"><rect x="3" y="3" width="8" height="8" fill="none" stroke="var(--muted)" stroke-width="1.5"/></svg> Cargo de honra</span>
+      <span><i class="swatch-line"></i> Documentos e listas</span>
+      <span><i class="swatch-line dashed"></i> Outras imagens do projeto</span>
+      <span><i class="swatch-line thin"></i> Site da FFP</span>
+      <span><i class="swatch-line dotted"></i> Fontes secundárias</span>
+      <span><i class="swatch-line dashdot"></i> Leitura analítica</span>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+  <div class="three">
+    <div style="display:grid;gap:10px;align-content:start">
+      <h3>Caminhos independentes entre congressos</h3>
+      <p class="small">Conectividade local com os filtros atuais: quantos caminhos sem nós intermédios em comum ligam cada par. Um 0 quer dizer que os dois congressos não se tocam.</p>
+      <div class="tbl-wrap"><table class="matrix" id="matrix" aria-label="Matriz de conectividade entre congressos"></table></div>
+    </div>
+    <div style="display:grid;gap:10px;align-content:start">
+      <h3>Maior intermediação</h3>
+      <p class="small">Os 10 nós por onde passam mais caminhos mais curtos, com os filtros atuais. Clique para os encontrar no grafo.</p>
+      <div id="topBet"></div>
+    </div>
+    <div style="display:grid;gap:10px;align-content:start">
+      <h3>Como ler as pontes</h3>
+      <p class="callout">Braga e Santo Tirso ligam-se por Pires de Lima, Luís de Pina e a escola colonial de Lisboa (ISEU em 1956, ISCSPU em 1963, a mesma instituição renomeada em 1962).</p>
+      <p class="callout">Entre 1963 e 1977 não há nenhuma ponte nas fontes, nem com os 100 dirigentes da FFP nem com os 157 participantes de 1987. Ligue a leitura analítica para ver as equivalências entre cargos de honra: são as únicas ligações entre 1956 e 1987, e não vêm das fontes.</p>
+    </div>
+  </div>
+  <details>
+    <summary>Ver a rede como tabela <span class="small" id="edgeCount"></span></summary>
+    <div class="tbl-wrap"><table id="edgeTable"></table></div>
+  </details>
+</section>
+</main>
+<footer class="foot"><div class="footin"><span>Redes do folclore organizado, 1956–2025 · Fontes: programa do I Congresso de Etnografia e Folclore (Braga, 1956); Actas do II Congresso da FFP (Coimbra, 1987); separatas de Santo Tirso (1963); ffp.pt; Revista de Guimarães.</span><a href="metodo.html">Método, fontes e dados para descarregar</a></div></footer>
+<div class="tooltip" id="tip" role="status"></div>
+<script src="assets/d3.min.js"></script>
+<script src="dados/rede.js"></script>
+<script src="js/rede.js"></script>
+</body>
+</html>
